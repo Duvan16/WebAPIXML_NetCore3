@@ -35,5 +35,13 @@ namespace WebAPIXML_NetCore3.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost]
+        public ActionResult Post(WeatherForecast forecast)
+        {
+            //procesarla
+
+            return Ok();
+        }
     }
 }
